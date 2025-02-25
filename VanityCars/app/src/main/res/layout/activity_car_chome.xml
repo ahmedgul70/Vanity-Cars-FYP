@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/carcode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:padding="12dp"
+            android:text="Car C"
+            android:textColor="@color/black"
+            android:textSize="34dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/FIREBASESTATUS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/carcode"
+            android:gravity="center"
+            android:text="FIREBASE STATUS"
+            android:textColor="@color/red"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/lcd_display"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/FIREBASESTATUS"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="25dp"
+            android:background="@drawable/textdisplay"
+            android:padding="22dp"
+            android:text="No User in Range"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/sentbtn1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/lcd_display"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="90dp"
+            android:layout_marginEnd="25dp"
+            android:backgroundTint="@color/purple"
+            android:text="Car A"
+            android:textSize="22sp"
+            app:cornerRadius="25dp" />
+
+        <Button
+            android:id="@+id/sentbtn2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/sentbtn1"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="25dp"
+            android:backgroundTint="@color/purple"
+            android:text="car B"
+            android:textSize="22sp"
+            app:cornerRadius="25dp" />
+
+        <Button
+            android:id="@+id/sentbtn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/sentbtn2"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="25dp"
+            android:backgroundTint="@color/purple"
+            android:text="Car D"
+            android:textSize="22sp"
+            app:cornerRadius="25dp" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

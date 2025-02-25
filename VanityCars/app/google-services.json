@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "797516693098",
+    "firebase_url": "https://vanitycars-37b73-default-rtdb.firebaseio.com",
+    "project_id": "vanitycars-37b73",
+    "storage_bucket": "vanitycars-37b73.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:797516693098:android:2671d4925975b6fe135413",
+        "android_client_info": {
+          "package_name": "com.example.vanitycars"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfNlYRhXMwtIhnCa7VBmWm-uV0JUOGErA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
